@@ -1,21 +1,6 @@
-# Core dashboard framework
 streamlit==1.56.0
-
-# Data handling
 pandas==3.0.2
-numpy==2.4.4
+numpy==2.2.2
 pyarrow==24.0.0
-
-# Visualization
 plotly==5.22.0
-
-# Statistical modeling
-scipy==1.13.1   # use 1.13.1 for faster installs (prebuilt wheels)
-
-# Optional: Streamlit dependencies (already pulled in automatically, but pinning helps reproducibility)
-altair==6.1.0
-pydeck==0.9.2
-protobuf==7.34.1
-watchdog==6.0.0
-tornado==6.5.5
-typing-extensions==4.15.0
+scipy==1.13.1

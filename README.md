@@ -1,5 +1,10 @@
 # Probabilistic Flight Delay Forecasting with Cross-Airport Delay Propagation Analysis
 
+## 🌐 Live App
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://flightdelayforecasting.streamlit.app/)
+
+
 > **Authors:** Aarsh Adhvaryu · Nikita Sharma · Ram Sharma  
 > **Data:** US Bureau of Transportation Statistics (BTS) · January 2023 – December 2025  
 > **Scope:** 10 busiest US hub airports · ~22 million raw flight records
@@ -315,13 +320,3 @@ See `requirements.txt` for the full pinned list. Core libraries:
 - **Dashboard:** `streamlit`
 
 ---
-
-## Citation
-
-If you use this work, please cite:
-
-```
-Adhvaryu, A., Sharma, N., & Sharma, R. (2025). Probabilistic Flight Delay Forecasting 
-with Cross-Airport Delay Propagation Analysis. Applied Forecasting Methods Project.
-Data source: US Bureau of Transportation Statistics On-Time Performance Database.
-```

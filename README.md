@@ -59,8 +59,13 @@ The target variable is the **daily mean departure delay (minutes) per airport**,
 ├── dash.py                     # Streamlit interactive dashboard
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
-└── data/                       # (Not included — download from BTS; see below)
-    └── *.parquet               # Raw BTS on-time performance files
+├── dashboard                   # Results
+├── ppt.pdf
+├── runtime.txt
+└── Flight_Delay_report.docx
+
+
+
 ```
 
 ### Notebook Cell Map
@@ -270,6 +275,10 @@ Mean tail-chain carry-over: **74.2%** across 793,941 chain pairs
 ---
 
 ## Dashboard Guide
+
+![Map](dashboard/dash1.jpg)
+![Map](dashboard/dash2.jpg)
+
 
 The Streamlit dashboard (`dash.py`) has 8 pages:
 

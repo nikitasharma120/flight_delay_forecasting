@@ -276,8 +276,8 @@ Mean tail-chain carry-over: **74.2%** across 793,941 chain pairs
 
 ## Dashboard Guide
 
-![Map](dashboard/dash1.jpg)
-![Map](dashboard/dash2.jpg)
+![Map](dashboard/dash1.png)
+![Map](dashboard/dash2.png)
 
 
 The Streamlit dashboard (`dash.py`) has 8 pages:
